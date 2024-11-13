@@ -60,21 +60,6 @@ public class TestText {
         assertEquals("superduper", controlText.getLongestWord());
     }
 
-
-
-
-
-    /*// Testfall 5: kontroll att inget tomt input räknas som varken tecken, ord eller rader,
-    // samt att den inte skriver ut något längsta ord
-    @Test public void testEmptyInput() {
-        ControlText controlText = new ControlText();
-        controlText.processInput("");
-        assertEquals(0, controlText.getTotalCharacters());
-        assertEquals(0, controlText.getTotalWords());
-        assertEquals(1, controlText.getTotalLines());
-        assertEquals("", controlText.getLongestWord());
-    }*/
-
 }
 
 
